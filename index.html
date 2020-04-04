@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>No Moving Eyes Reader</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class ="pageHint">Insira o texto para ler sem mover os olhos</h1>
+        <div class="answer">
+            <p class="textAnswer"></p>
+        </div>
+        <div class="btn_options">
+            <button class="btn_ops" onclick="backwardwords()" >←10 palavras</button>
+            <button class="btn_ops" onclick="playPause()"><p class="pausebutton">Pausar/Play</p></button>
+            <button class="btn_ops" onclick="frontwardwords()" >10 palavras→</button>
+        </div>
+        <div class="radioOptions">
+            <p>Velocidade</p>
+            <input type="radio" name="velocidade" id="60" value="60"><label for="huey">60 PPM</label>
+            <input type="radio" name="velocidade" id="120" value="120" checked><label for="huey">120 PPM</label>
+            <input type="radio" name="velocidade" id="240"  value="240"><label for="huey">240 PPM</label>
+            <input type="radio" name="velocidade" id="320"  value="320"><label for="huey">320 PPM</label>
+            <input type="radio" name="velocidade" id="400"  value="400"><label for="huey" style="color: red;">400 PPM</label>
+        </div>
+
+        <textarea class="textField" placeholder="Insira seu texto aqui"></textarea>
+        
+        <button class="btn_answer" onclick="lerIniciar()">Aplicar velocidade e Ler</button>
+    
+
+        <footer>
+            <p>Desenvolvido por Allan Cruvinel</p>
+        </footer>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
