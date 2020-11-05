@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logos/pagelogo.png" />
     <title>Allan Cruvinel</title>
 </head>
 
 <body>
     <header>
         <div class="container">
+            <h1>AC</h1>
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </div>
     </header>
@@ -65,27 +67,92 @@
                 <img class="tech" src="logos/JavaScript-logo-vector-01.svg" alt="logo_React">
                 <img class="tech" src="logos/Node-JS-logo-vector-01.svg" alt="logo_React">
                 <img class="tech" src="logos/React-logo-vector-01.svg" alt="logo_React">
-                <img class="tech" src="logos/MySQL-logo-vector-01.svg" alt="logo_React">
+                <img class="tech" id="postgres" src="logos/postgresql.svg" alt="logo_React">
                 <img class="tech" src="logos//mongodb.svg" alt="logo_React">
                 <img class="tech" src="logos/Java-logo-vector-01.svg" alt="logo_React">
 
 
             </div>
             <div class="portfolio" id="portfolio">
-                <h1>PORTFÓLIO</h1>
+                <h1 class="section">PORTFÓLIO</h1>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Decorative_text_divider_-_central_flare.svg"
                     alt="">
-                <div class="Project">
+
+
+                <div class="project">
                     <h1>Consultor Imobiliário Tanaka</h1>
-                    <img src="" alt="">
-                    <p>Site de venda e locação de imóveis usando tecnologias......</p>
+                    <div class="imageport">
+                        <a href="Assets/consultor_1.JPG">
+                            <img src="Assets/consultor_1.JPG" alt="">
+                        </a>
+                    </div>
+                    <p>Site de venda e locação de imóveis usando tecnologias HTML5, CSS3, JavaScript, React.JS, Node.JS,
+                        banco de dados Postgres e armazenamento de imagens da nuvem pelo Cloudinary. você pode encontrar
+                        o projeto no github clicando <a class="githubLink"
+                            href="https://github.com/allancruvinel/real-estate-website-frontendweb"
+                            target="_blank">Aqui</a></p>
+
+                    <div class="portseparator">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Decorative_text_divider_-_central_flare.svg"
+                            alt="">
+                    </div>
                 </div>
+
+                <div class="project">
+                    <h1>Happy</h1>
+                    <div class="imageport">
+                        <a href="Assets/happy2.JPG">
+                            <img src="Assets/happy2.JPG" alt="">
+                        </a>
+                    </div>
+                    <p>Aplicação mostrando casas de apoio na região com o intuito de agendar visitas para alegrar o dia
+                        de
+                        muitas crianças carentes. Site criado usando tecnologias HTML5, CSS3, JavaScript, TypeScript,
+                        React.JS, versão para Android com ReactNative, Node.JS
+                        e Banco de dados Postgres, você pode acessar o <a
+                            href="https://happy-allan-cruvinel.netlify.app" target="_blank">Site Happy Hospedado Pelo
+                            Netlify</a> ou acessar o projeto no github clicando <a class="githubLink"
+                            href="https://github.com/allancruvinel/happyFrontendDeploy" target="_blank">Aqui</a></p>
+
+                    <div class="portseparator">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Decorative_text_divider_-_central_flare.svg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h1>Be The Hero</h1>
+                    <div class="imageport">
+                        <a href="Assets/be_the_hero3.JPG">
+                            <img src="Assets/be_the_hero3.JPG" alt="">
+                        </a>
+                    </div>
+                    <p>Site auxiliar com doações na ajuda à bichinhos de estimação site desenvolvido com HTML5, CSS3,
+                        JavaScript, React.JS, Node.JS
+                        e Banco de dados SQLite. você pode encontrar o projeto no github clicando <a class="githubLink"
+                            href="https://github.com/allancruvinel/DevWeek" target="_blank">Aqui</a></p>
+
+                    <div class="portseparator">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Decorative_text_divider_-_central_flare.svg"
+                            alt="">
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </main>
 
-    <footer>
-        <p>contact</p>
+    <footer id="contato">
+        <div class="container">
+            <h1>Contato</h1>
+            <div class="contact">
+                <a href="https://www.linkedin.com/in/allancruvinel/">linkedin.com/in/allancruvinel</a>
+            </div>
+            <div class="contact">
+                <a href="mailto:allan.cruvinel@gmail.com">allan.cruvinel@gmail.com</a>
+            </div>           
+        </div>
     </footer>
 </body>
 

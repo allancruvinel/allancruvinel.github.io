@@ -18,14 +18,18 @@ header{
     height: 100px;
     background-color: rgb(69, 24, 95);
     line-height: 100px;
-
+}
+header h1{
+    float: left;
+    color: white;
+    font-size: 80px;
 }
 
 ul{
     padding: 0;
     margin: 0;
     list-style-type: none;
-    text-align: center;
+    text-align: right;
     
     
 }
@@ -34,13 +38,13 @@ li{
     display: inline;
     text-decoration: none;
     font-size: 23px;
-    margin: 0 10px;
+    margin: 0 20px;
 }
-a{
+li a{
     color: white;
     text-decoration: none; /* no underline */
 }
-a:hover{
+li a:hover{
     color: orange;
     transition: .2s;
 }
@@ -112,9 +116,79 @@ a:hover{
 }
 
 .technologies .tech{
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     margin: auto;
 
 }
 
+.portfolio{
+    margin-top: 100px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.portfolio .section{
+    color: rgb(69, 24, 95);
+}
+
+.portfolio .project{
+    
+}
+
+.portfolio .project h1{
+    color: orange;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 30px;
+}
+
+.portfolio .project .imageport img{
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.portfolio .project .portseparator img{
+    margin-top: 80px;
+    width: 70%;
+    color: wheat;
+}
+
+.portfolio .project p{
+    margin-top: 20px;
+}
+
+.portfolio .project p a{
+    color: rgb(69, 24, 95);
+    text-decoration: none;
+}
+
+.portfolio .project p a:hover{
+    color: orange;
+
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    background-color: rgb(69, 24, 95);
+    text-align: center;
+}
+
+footer h1{
+    color: orange;
+}
+
+footer .contact a{
+    color: white;
+    margin: auto;
+}
+
+footer .contact img{
+    width: 50px;
+}
