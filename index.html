@@ -1,40 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>No Moving Eyes Reader</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Allan Cruvinel</title>
 </head>
+
 <body>
-    <div class="container">
-        <h1 class ="pageHint">Insira o texto para ler sem mover os olhos</h1>
-        <div class="answer">
-            <p class="textAnswer"></p>
+    <header>
+        <div class="container">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
         </div>
-        <div class="btn_options">
-            <button class="btn_ops" onclick="backwardwords()" >←10 palavras</button>
-            <button class="btn_ops" onclick="playPause()"><p class="pausebutton">Pausar/Play</p></button>
-            <button class="btn_ops" onclick="frontwardwords()" >10 palavras→</button>
-        </div>
-        <div class="radioOptions">
-            <p>Velocidade</p>
-            <input type="radio" name="velocidade" id="60" value="60"><label for="huey">60 PPM</label>
-            <input type="radio" name="velocidade" id="120" value="120" checked><label for="huey">120 PPM</label>
-            <input type="radio" name="velocidade" id="240"  value="240"><label for="huey">240 PPM</label>
-            <input type="radio" name="velocidade" id="320"  value="320"><label for="huey">320 PPM</label>
-            <input type="radio" name="velocidade" id="400"  value="400"><label for="huey" style="color: red;">400 PPM</label>
-        </div>
+    </header>
+    <main>
+        <div class="apresentation">
+            <div class="text">
+                <img class="icon" src="logos/programmer-computer.svg" alt="">
 
-        <textarea class="textField" placeholder="Insira seu texto aqui"></textarea>
-        
-        <button class="btn_answer" onclick="lerIniciar()">Aplicar velocidade e Ler</button>
-    
+                <h1>ALLAN CRUVINEL</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Decorative_text_divider_-_central_flare.svg"
+                    alt="">
+                <p>Programador FullStack</p>
+            </div>
 
-        <footer>
-            <p>Desenvolvido por Allan Cruvinel</p>
-        </footer>
-    </div>
+        </div>
+        <div class="container">
+
+            <div class="about" id="sobre">
+                <div class="text">
+                    <h1>SOBRE</h1>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Decorative_text_divider_-_central_flare.svg"
+                        alt="">
+                    <p>Aspirante em programação, meu objetivo é aprender cada vez mais e trabalhar com tecnologia da
+                        informação
+                        Aspirante em programação, meu objetivo é aprender cada vez mais e trabalhar com tecnologia da
+                        informação
+                        Aspirante em programação, meu objetivo é aprender cada vez mais e trabalhar com tecnologia da
+                        informação
+                        Aspirante em programação, meu objetivo é aprender cada vez mais e trabalhar com tecnologia da
+                        informação
+                        Aspirante em programação, meu objetivo é aprender cada vez mais e trabalhar com tecnologia da
+                        informação
+                        Aspirante em programação, meu objetivo é aprender cada vez mais e trabalhar com tecnologia da
+                        informação
+                        Aspirante em programação, meu objetivo é aprender cada vez mais e trabalhar com tecnologia da
+                        informação
+                    </p>
+                    <h1>TECNOLOGIAS</h1>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Decorative_text_divider_-_central_flare.svg"
+                        alt="">
+                </div>
+            </div>
+            <div class="technologies">
+                <img class="tech" src="logos/HTML-5-logo-vector-01.svg" alt="logo_React">
+                <img class="tech" src="logos/CSS-3-logo-vector-01.svg" alt="logo_React">
+                <img class="tech" src="logos/JavaScript-logo-vector-01.svg" alt="logo_React">
+                <img class="tech" src="logos/Node-JS-logo-vector-01.svg" alt="logo_React">
+                <img class="tech" src="logos/React-logo-vector-01.svg" alt="logo_React">
+                <img class="tech" src="logos/MySQL-logo-vector-01.svg" alt="logo_React">
+                <img class="tech" src="logos//mongodb.svg" alt="logo_React">
+                <img class="tech" src="logos/Java-logo-vector-01.svg" alt="logo_React">
+
+
+            </div>
+            <div class="portfolio" id="portfolio">
+                <h1>PORTFÓLIO</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Decorative_text_divider_-_central_flare.svg"
+                    alt="">
+                <div class="Project">
+                    <h1>Consultor Imobiliário Tanaka</h1>
+                    <img src="" alt="">
+                    <p>Site de venda e locação de imóveis usando tecnologias......</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>contact</p>
+    </footer>
 </body>
-    <script src="script.js"></script>
+
 </html>
