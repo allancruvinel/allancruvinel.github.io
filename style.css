@@ -110,11 +110,15 @@ li a:hover{
 
 .about .text p{
     margin-top: 30px;
+    padding: 20px;
     text-align: justify;
 }
 
 .technologies{
+    margin-top: 30px;
     align-content: center;
+    width: 100%;
+    height: 240px;
     text-align: center;
     align-items: center;
     display: grid;
@@ -167,6 +171,7 @@ li a:hover{
 
 .portfolio .project p{
     margin-top: 20px;
+    padding: 10px;
 }
 
 .portfolio .project p a{
@@ -203,7 +208,7 @@ footer .contact img{
 
 /* media Carries */
 
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 1000px) 
 {
     .container
    {
@@ -213,7 +218,23 @@ footer .contact img{
        font-size: 65px;
    }
    li{
-       font-size: 15px;
+       font-size: 18px;
+       margin: 0 2px;
    }
+   .technologies{
+    margin-top: 330px;
+    column-width: 90px;
+    grid-template-columns: 1fr 1fr;
+    }
+    .technologies .tech{
+        width: 90px;
+        height: 90px;
+        margin: auto;
+    
+    }
+    .apresentation .text img{
+        width: 250px;
+    }
+
 
 }
