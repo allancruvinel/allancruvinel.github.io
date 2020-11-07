@@ -219,10 +219,10 @@ footer .contact img{
    }
    li{
        font-size: 18px;
-       margin: 0 2px;
+       margin: 0 5px;
    }
    .technologies{
-    margin-top: 330px;
+    margin-top: 190px;
     column-width: 90px;
     grid-template-columns: 1fr 1fr;
     }
